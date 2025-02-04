@@ -1,88 +1,94 @@
-Password Manager
+# Password Manager
+
 A secure password management application built with React that helps users store, generate, and manage their passwords efficiently.
-Table of Contents
 
-Overview
-Components
-Installation
-Usage
-Features
-Contributing
+## Table of Contents
+- [Overview](#overview)
+- [Components](#components)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
 
-Overview
+## Overview
+
 This Password Manager is a web-based application that provides a secure way to store and manage passwords. It features a clean, intuitive interface and robust security measures to protect sensitive data.
-Components
-Manager.jsx
+
+## Components
+
+### Manager.jsx
 The core component of the application that handles:
+- Password storage and retrieval
+- Password generation
+- Data encryption/decryption
+- CRUD operations for password entries
+- Search and filtering capabilities
+- Category management
 
-Password storage and retrieval
-Password generation
-Data encryption/decryption
-CRUD operations for password entries
-Search and filtering capabilities
-Category management
-
-Navbar.jsx
+### Navbar.jsx
 Navigation component that provides:
+- Quick access to different sections
+- Search functionality
+- User account management
+- Settings menu
+- Sync status indicator
+- Dark/Light mode toggle
 
-Quick access to different sections
-Search functionality
-User account management
-Settings menu
-Sync status indicator
-Dark/Light mode toggle
-
-Footer.jsx
+### Footer.jsx
 Footer component containing:
+- Copyright information
+- Quick links to important pages
+- Version information
+- Contact support
+- Social media links
 
-Copyright information
-Quick links to important pages
-Version information
-Contact support
-Social media links
+## Installation
 
-Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/password-manager.git
+```
 
-Clone the repository:
-
-bashCopygit clone https://github.com/yourusername/password-manager.git
-
-Install dependencies:
-
-bashCopycd password-manager
+2. Install dependencies:
+```bash
+cd password-manager
 npm install
+```
 
-Start the development server:
+3. Start the development server:
+```bash
+npm run dev
+```
 
-bashCopynpm run dev
-Usage
+## Usage
 
-Create an account or log in
-Add your passwords using the "Add New" button
-Use the search bar to find specific passwords
-Click on entries to view or edit details
-Use the generate button to create strong passwords
+1. Create an account or log in
+2. Add your passwords using the "Add New" button
+3. Use the search bar to find specific passwords
+4. Click on entries to view or edit details
+5. Use the generate button to create strong passwords
 
-Features
+## Features
 
-Secure password encryption
-Password strength checker
-Auto-generate strong passwords
-Categories and tags
-Search and filter options
-Import/Export functionality
-Dark/Light mode
-Responsive design
-Auto-save and sync
+- Secure password encryption
+- Password strength checker
+- Auto-generate strong passwords
+- Categories and tags
+- Search and filter options
+- Import/Export functionality
+- Dark/Light mode
+- Responsive design
+- Auto-save and sync
 
-Contributing
+## Contributing
 
-Fork the repository
-Create a new branch (git checkout -b feature/improvement)
-Make your changes
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/improvement)
-Create a Pull Request
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
