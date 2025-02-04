@@ -72,13 +72,9 @@ npm run dev
 
 - Secure password encryption
 - Password strength checker
-- Auto-generate strong passwords
 - Categories and tags
 - Search and filter options
-- Import/Export functionality
-- Dark/Light mode
 - Responsive design
-- Auto-save and sync
 
 ## Contributing
 
